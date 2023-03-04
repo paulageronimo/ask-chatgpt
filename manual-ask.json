@@ -1,0 +1,67 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.1234567890",
+    "application": {
+      "applicationId": "amzn1.ask.skill.your_skill_id"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.testUser"
+    },
+    "attributes": {}
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.1234567890",
+    "locale": "en-US",
+    "timestamp": "2023-03-04T10:00:00Z",
+    "intent": {
+      "name": "SearchIntent",
+      "confirmationStatus": "NONE",
+      "slots": {
+        "query": {
+          "name": "query",
+          "value": "What is the capital of France?",
+          "resolutions": {
+            "resolutionsPerAuthority": [
+              {
+                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.your_skill_id.SearchQuery",
+                "status": {
+                  "code": "ER_SUCCESS_MATCH"
+                },
+                "values": [
+                  {
+                    "value": {
+                      "name": "Paris",
+                      "id": "abcdef0123456789"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "confirmationStatus": "NONE"
+        }
+      }
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.your_skill_id"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.testUser"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.testDevice",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJ2ZXIiOjEsInR",
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJ2ZXIiOjEsInR"
+    }
+  },
+  "version": "1.0"
+}
