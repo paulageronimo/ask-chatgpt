@@ -3,7 +3,7 @@
     "new": true,
     "sessionId": "SessionId.1234567890",
     "application": {
-      "applicationId": "amzn1.ask.skill.ask-chatgpt"
+      "applicationId": "amzn1.ask.skill.amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90"
     },
     "user": {
       "userId": "amzn1.ask.account.testUser"
@@ -25,7 +25,7 @@
           "resolutions": {
             "resolutionsPerAuthority": [
               {
-                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.ask-chatgpt.SearchQuery",
+                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90.SearchQuery",
                 "status": {
                   "code": "ER_SUCCESS_MATCH"
                 },
@@ -48,7 +48,7 @@
   "context": {
     "System": {
       "application": {
-        "applicationId": "amzn1.ask.skill.ask-chatgpt"
+        "applicationId": "amzn1.ask.skill.amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90"
       },
       "user": {
         "userId": "amzn1.ask.account.testUser"
