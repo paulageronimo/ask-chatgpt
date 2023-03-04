@@ -3,7 +3,7 @@
     "new": true,
     "sessionId": "SessionId.1234567890",
     "application": {
-      "applicationId": "amzn1.ask.skill.amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90"
+      "applicationId": "amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90"
     },
     "user": {
       "userId": "amzn1.ask.account.testUser"
@@ -25,7 +25,7 @@
           "resolutions": {
             "resolutionsPerAuthority": [
               {
-                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90.SearchQuery",
+                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90.SearchQuery",
                 "status": {
                   "code": "ER_SUCCESS_MATCH"
                 },
@@ -48,7 +48,7 @@
   "context": {
     "System": {
       "application": {
-        "applicationId": "amzn1.ask.skill.amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90"
+        "applicationId": "amzn1.ask.skill.ab23e19a-8481-4074-8765-fbeab70e7c90"
       },
       "user": {
         "userId": "amzn1.ask.account.testUser"
@@ -57,8 +57,6 @@
         "deviceId": "amzn1.ask.device.testDevice",
         "supportedInterfaces": {}
       },
-      "apiEndpoint": "https://api.amazonalexa.com",
-      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJ2ZXIiOjEsInR",
       "apiEndpoint": "https://api.amazonalexa.com",
       "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJ2ZXIiOjEsInR"
     }
